@@ -42,6 +42,12 @@
 5. Demo dataset (U_0.4.mat, U_p0.mat) 
 
 
+### Step1: Configure the environment with *.yml
+
+### Step2: Run demo (Dual_Dc.py)
+
+### Step3: Show results (show_phase.m)
+
 
 Note: There may be a little difference between the version and the paper of Dual-DC. If you have any questions, please contact me.
 By Shengyuan Ma (shengyuanma@sjtu.edu.cn,fengyuan@sjtu.edu.cn)
