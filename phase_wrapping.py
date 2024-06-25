@@ -5,6 +5,14 @@ import os
 
 #%% funciton
 def phase_wrapping_main(path_file,name_,unwrpping_):
+    '''
+    % path_file: file path (Dual-DC and raw MRE data) (end with /)
+    % name_: data name (U_<name>.mat)
+    % unwrpping_:[lr_unwrap,iter_max_unwrap,gradientDC_coff_unwrap]
+    %     lr_unwrap: 0.005,
+    %     iter_max_unwrap:4000,
+    %     gradientDC_coff_unwrap:1000
+    '''
     # %% step0: initialization
     from Step0_TWE_init import TWE_init
     for name in name_:
